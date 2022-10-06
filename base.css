@@ -2,8 +2,19 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+border: solid 1px firebrick;
 }
 
 .boilerplate {
 width: 100%;
+}
+
+.logo--header {
+width: 100%;
+height: 5vh;
+padding: 8px;
+}
+
+.nav--header {
+
 }
