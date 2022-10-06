@@ -2,8 +2,48 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+background-color: grey;
+border: 1px solid black;
+list-style-type: none;
+text-decoration: none;
+text-align: center;
+gap: 10px;
 }
 
-.boilerplate {
-width: 100%;
+.nav--header {
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+height: 8vh;
+}
+    
+.nav--links li {
+display: inline-block;
+padding: 0 15px;
+}
+
+.head--banner {
+height: 20vh;
+margin: 5px 0 5px 0;
+}
+
+.intro--container {
+height: 15vh;
+margin: 5px 0 5px 0;
+}
+
+.cards--section {
+display: flex;
+margin: 5px 0 5px 0;
+}
+
+.card--container {
+width: 50%;
+height: 50vh;
+border-radius: 15px;
+margin: 5px 0 5px 0;
+}
+
+.sticky--foot {
+    margin: 5px 0 5px 0;
 }
