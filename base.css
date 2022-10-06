@@ -2,8 +2,34 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+border: 1px solid black;
+background-color: grey;
+text-align: center;
+gap: 10px;
 }
 
-.boilerplate {
-width: 100%;
+
+.side--bar {
+display: table-cell;
+width: 35%;
+vertical-align: top;
+margin: 5px 0 0 5px;
 }
+    
+.header--container {
+display: table-cell;
+width: 85%;
+height: 40vh;
+}
+
+.body--container {
+height: 80vw;
+vertical-align: middle;
+}
+    
+.main--content {
+display: table;
+width: 100%;
+height: 85vh;
+}
+    
